@@ -1,0 +1,11 @@
+This is your grade report from the Autograder ran on 2019-03-16 22:02:18. 
+For this project we ran 2 evaluation(s) on your committed code. On the kernel_eval evaluation you scored 60 points with our tests. Unfortunately, you failed 1 test(s) on this evaluation: 
+
+Failed Test 14: Bias seems wrong
+
+You scored 0 points in the competition because of an error:
+Traceback (most recent call last):
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project3/shupan/kernel_eval.py", line 26, in kernel_eval
+    best_parameters = pickle.load(open('best_parameters.pickle', 'rb'))
+FileNotFoundError: [Errno 2] No such file or directory: 'best_parameters.pickle'
+On the l2dist_eval evaluation you scored 5 points with our tests. Your implementation for l2dist_eval was competitive! You scored 5 points based on the efficiency or quality of your code. For this project, you scored a total of 70 points.

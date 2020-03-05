@@ -1,0 +1,19 @@
+This is your grade report from the Autograder ran on 2019-02-23 21:50:39. 
+For this project we ran 1 evaluation(s) on your committed code. On the nb_eval evaluation you scored 63 points with our tests. Unfortunately, you failed 1 test(s) on this evaluation: 
+
+Failed Test 9:  The calculation of log P(Y=1|X)/P(Y=-1|X) seems incorrect.
+Traceback (most recent call last):
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/nb_tests.py", line 155, in nb_tests
+    logratio = naivebayes(x,y,x1)
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/naivebayes.py", line 38, in naivebayes
+    for i in range(d):
+NameError: name 'd' is not defined
+
+Your implementation for nb_eval was competitive! You scored 24 points based on the efficiency or quality of your code. For this project, you scored a total of 87 points.The autograder ran into an exception when running your code.Traceback (most recent call last):
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/grade.py", line 39, in grade
+    evalHand = getattr(__import__(name), name)
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/kernel_eval.py", line 5, in <module>
+    from kernel_tests import kernel_tests
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/kernel_tests.py", line 4, in <module>
+    from generateQP import generateQP
+ModuleNotFoundError: No module named 'generateQP'

@@ -1,0 +1,11 @@
+The autograder ran into an exception when running your code.Traceback (most recent call last):
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/grade.py", line 39, in grade
+    evalHand = getattr(__import__(name), name)
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/nb_eval.py", line 11, in <module>
+    from nb_tests import nb_tests
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/nb_tests.py", line 12, in <module>
+    from naivebayes import naivebayes
+  File "/home/warehouse/cse517a/cse517a/server/autograder/grading_temp/project2/shupan/naivebayes.py", line 39
+    PXY1*=posprob[i,0]**X1[0,i]
+                              ^
+TabError: inconsistent use of tabs and spaces in indentation
